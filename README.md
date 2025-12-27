@@ -5,12 +5,14 @@ This repository documents my journey building a Generative World Model (inspired
 ## Roadmap
 
 ### Phase 1: Temporal Memory (RNN)
+
 - **Goal:** Understand temporal dependencies and sequence prediction.
 - **Task:** Trained an RNN to predict Sine Wave trajectories.
 - **Outcome:** Model successfully learned frequency/amplitude patterns from scratch.
 <!-- - [Link to Code](./01_memory_basics) -->
 
 ### Phase 2: Visual Compression (VAE)
+
 - **Goal:** Learn a disentangled, compressed latent representation of visual data.
 - **Task:** Implemented a Variational Autoencoder (VAE) with Reparameterization Trick.
 - **Experiments:** - MNIST Digits (Static Reconstruction)
@@ -19,10 +21,11 @@ This repository documents my journey building a Generative World Model (inspired
 <!-- - [Link to Code](./02_visual_dreamer) -->
 
 ### Phase 3: Latent Dynamics (In Progress)
+
 - **Goal:** Connect VAE and RNN to simulate future video frames in latent space.
 
-
 ## How to Run
+
 1. Install dependencies: `pip install -r requirements.txt`
 2. Generate Physics Data: `python 02_visual_dreamer/dataset.py`
 3. Train VAE: `python 02_visual_dreamer/train_vae.py`
