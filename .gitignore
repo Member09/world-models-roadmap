@@ -1,0 +1,16 @@
+# Python garbage
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large Data Files (files > 100MB)
+*.npy
+*.npz
+*.pt
+*.pth
+data/
+saved_models/
+
+# OS junk
+.DS_Store
